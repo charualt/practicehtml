@@ -7,6 +7,8 @@ function changeText(){
     
     //Arrow function --> before
     let myFunction = function(a,b) {
+
+        
         return a*b};
     console.log(myFunction(3,4));
     
