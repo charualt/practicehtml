@@ -76,3 +76,11 @@ console.log(evens);
 
 let sum1 = newNumbers.reduce((acc,curr) => acc + curr,0);
 console.log(sum1);
+
+//stringmanipulation
+ let str= "javascript starters ";
+console.log(str.length);
+console.log(str.trim());
+console.log(str.slice(0,3));
+console.log(str.replace('starters', 'first'));
+console.log(str.split(" "));
